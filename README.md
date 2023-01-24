@@ -1,6 +1,6 @@
 # Decoder Replication
 
-## Run Decoder on Lua and Python VMs:
+Run Decoder on Lua and Python VMs:
 
 ```
 make -B vmdecoder RUNTIME=1 R=1
