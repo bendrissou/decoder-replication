@@ -80,7 +80,7 @@ with open('results/vmdecoder_runs.csv') as read_obj:
             if run != len(lemon_rows): lemon_rows.append(list())
             lemon_rows[-1].append(row)
 
-all_rows = [lua_rows] # python_rows
+all_rows = [lua_rows, python_rows] # python_rows
 names = ["Lua", "Python"]
 
 i = 0
